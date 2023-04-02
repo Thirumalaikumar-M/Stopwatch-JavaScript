@@ -1,0 +1,75 @@
+:root{
+    --primary: crimson;
+    --dark: #1F2937;
+    --darkest: #111827;
+    --light: #F3F4F6;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira sans', sans-serif;
+}
+body{
+    display: flex;
+    background-color: var(--dark);
+    color: var(--light);
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.watch{
+    background-color: var(--light);
+    width: 90%;
+    max-width: 600px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 60px 0;
+    border-radius: 10px;
+}
+.time{
+    position: relative;
+    width: 110%;
+    background-color: var(--darkest);
+    font-size: 3rem;
+    font-weight: 300;
+    left: -5%;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+.controls{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.controls button{
+    /*remove default browser styles from buttons*/
+    border: none;
+    background: none;
+    outline: none;
+    user-select: none;
+    cursor: pointer;
+    /*button styling*/
+    color: var(--light);
+    font-size: 1.125rem;
+    background-color: var(--primary);
+    margin: 0.5rem;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    width: 120px;
+    /*button transition*/
+    transition: 0.4s;
+}
+button:hover{
+    opacity: 0.5;
+}
+button:active{
+    background-color: var(--light);
+}
