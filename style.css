@@ -73,3 +73,23 @@ button:hover{
 button:active{
     background-color: var(--light);
 }
+
+/* Media Queries */
+@media only screen and (max-width: 480px) {
+    .watch {
+        padding: 40px 0;
+        width: 90%;
+        max-width: none;
+    }
+    .time {
+        font-size: 2rem;
+        padding: 30px 0;
+    }
+    .controls {
+        flex-direction: column;
+    }
+    .controls button {
+        margin: 0.25rem;
+        padding: 0.75rem 1.5rem;
+    }
+}
