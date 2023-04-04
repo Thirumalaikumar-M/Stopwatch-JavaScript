@@ -27,8 +27,8 @@ To use the stopwatch, simply open the index.html file in your web browser or els
 
 ## Screenshots
 
-![Stopwatch screenshot -1](Snapshots/stopwatch(ss-1).png)
-![Stopwatch screenshot -2](Snapshots/stopwatch(ss-2).png)
+![Stopwatch screenshot -1](project-snapshots/stopwatchss1.png)
+![Stopwatch screenshot -2](project-snapshots/stopwatchss2.png)
 
 ## Contributions
 
